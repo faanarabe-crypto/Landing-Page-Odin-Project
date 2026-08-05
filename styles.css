@@ -75,3 +75,37 @@ a{
     justify-content: center;
     align-items: center;
 }
+
+.info-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.information{
+    text-align: center;
+    padding: 30px;
+}
+
+.info-title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 16px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 16px;
+}
+
+.info-image{
+    padding: 80px;
+    border: 8px solid #3882f6;
+    border-radius: 12px;
+}
