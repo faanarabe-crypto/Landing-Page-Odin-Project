@@ -31,5 +31,47 @@ ul{
 
 a{
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero-section{
+    display: flex;
+    padding: 30px 25px;
+    background-color: #1f2937;
     color: #f9faf8;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.text{
+    max-width: 50%;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 16px 0;
+}
+
+.sign-button{
+    background-color: #3882f6;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 8px 24px;
+    border: none;
+}
+
+.image{
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
